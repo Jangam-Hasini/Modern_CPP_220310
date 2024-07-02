@@ -1,0 +1,6 @@
+First Half : Concurrency/parallslism in Modern Cpp
+
+
+-----------------
+
+First Half : CPP 17 features

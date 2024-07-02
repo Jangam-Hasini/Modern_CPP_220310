@@ -1,0 +1,101 @@
+Modern cpp
+    -All versions of c++ since c++11
+
+cpp is revised/updated every 3 years
+so verisons of c++ are: c++11, c++id, c++17
+
+
+5 Weeks
+
+
+     A->Essentials of modern cpp (fundamentals)
+     B->Functional programming in Modern cpp
+     C->Concurrency & c++ 17
+     D->STL DS & Algorithm
+
+     Feature 1: In class initialization
+     Fearure 2 : enum class
+
+     Fetaure 3: Enable/disable special member functions aka default/deleted membar function
+                 
+
+                you can choose whether to enable or disable & special member functions for a class you are creating
+
+                a) Default constructor
+                b)destructor
+                c)copy constructor
+                d)copy assignment operator = (overload = operator)
+                e)move constructor (new feature in c++ 11)
+                f)move assignment operator = (overload = operator for move)
+
+     Feature 4: NULL is replaced with nullptr
+      Feature 4: uniform initialization
+          We can initialize variables in a function using {}
+
+           NULL alter name for 0
+
+           employee* ptr =10;
+
+     Feature 5: uniform initialization
+         we can initialize variables in a function using ()
+
+
+          NULL alter name for 0
+
+          employee** ptr =0; //valid code
+
+          //do actions only on pointer type "null"?
+
+     Feature 6: member list initialization
+
+     Feature 7: auto ketword
+                detect and infer thentype of variables
+                BASED ON INTIAL VALUE
+
+     Feature 8: constructor delegation          
+     you can transfer/shift control of the program from one constructor to another in 
+     the same class
+
+
+
+     Arrangement or structuring the data
+
+     A) consecutively. one after the another in the memory
+         a) No option for adding no data will be provided
+
+            28          35        29
+           0x100H    0x104H     0x108H
+
+           Employee 4 : 36
+
+         b) We can add more data values if required, in future
+
+             [ ///////////////////////]
+
+                    TRANSFER DATA TO A NEW REGION IN MEMORY
+  
+
+              28       35         29       36
+             0x200H   0x204H    0x208H    0X212H
+
+     EVERYTHING IS AN ILLUSION
+
+     THERE IS NO ARRAY THERE IS NO STACK, THERE IS NO LIST
+
+
+
+
+DATA STRUCTURE
+
+       a)Data structure is arrangament of data, different ways of retrieving or accessing data
+
+       b)Data structure are theoretical and philosophical. they have to implement in the code
+
+       c)Implementation of data structures an different platform or in different libraries may
+         different to behaviour
+
+       d)There are "infinite" data structures in the world
+
+       e) Data structure Implementations have to follow rule or syntax of the language
+
+       
