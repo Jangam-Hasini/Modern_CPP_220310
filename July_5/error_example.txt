@@ -1,0 +1,13 @@
+concurrency
+
+  std::thread
+      -join,joinabla,mutex,lock_guard,unique_lock
+cpp 17
+
+ -std::varient
+   std::optional
+   guranteed copy elision
+   if init
+   structured binding
+
+
